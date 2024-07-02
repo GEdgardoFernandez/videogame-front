@@ -1,0 +1,9 @@
+# Exported from Render on 2024-07-02T00:14:32Z
+services:
+- type: web
+  name: videogame-front
+  runtime: static
+  repo: https://github.com/GEdgardoFernandez/videogame-front
+  buildCommand: npm start
+  staticPublishPath: build
+version: "1"
